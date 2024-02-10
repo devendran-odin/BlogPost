@@ -1,24 +1,17 @@
-# README
+# Blog Post
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```
+rails new blog
+```
+creates an blog folder and installs the necessary gemfiles to run the project
 
-Things you may want to cover:
+```
+rails generate model BlogPost title:string body:text
+```
+creates an Database model inside app/model
 
-* Ruby version
+```
+rails db:migarte
+```
+creates or updates the Database schema
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
