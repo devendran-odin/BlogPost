@@ -32,5 +32,16 @@ rails g devise User
 ```
 creates an user Database model for authentication and stuffs
 
+## styling using tailwind css
 
+```
+bundle add tailwindcss-rails
+rails tailwindcss:install
+```
 
+The above command will install the tailwind inside our project
+
+```
+rails g devise:views
+```
+Gives the actual views of the devise and now we can style it with the tailwind css

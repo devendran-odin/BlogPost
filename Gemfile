@@ -23,6 +23,8 @@ gem 'htmlbeautifier'
 
 gem "devise", "~> 4.9"
 
+gem "tailwindcss-rails", "~> 2.3"
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 
