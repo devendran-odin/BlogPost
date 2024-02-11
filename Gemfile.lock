@@ -90,6 +90,7 @@ GEM
     erubi (1.12.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
+    htmlbeautifier (1.4.2)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
     importmap-rails (2.0.1)
@@ -169,7 +170,6 @@ GEM
     rake (13.1.0)
     rdoc (6.6.2)
       psych (>= 4.0.0)
-    redis (4.8.1)
     regexp_parser (2.9.0)
     reline (0.4.2)
       io-console (~> 0.5)
@@ -222,11 +222,11 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
+  htmlbeautifier
   importmap-rails
   jbuilder
   puma (~> 5.0)
   rails (~> 7.0.4)
-  redis (~> 4.0)
   selenium-webdriver
   sprockets-rails
   sqlite3 (~> 1.4)

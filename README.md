@@ -19,7 +19,9 @@ creates or updates the Database schema
 rails generate controller BlogPosts
 ```
 creates an controller called **blog_posts_controller.rb**
-we can pass additional arguments to create an view(tempalte) and corresponding route for that 
+we can pass additional arguments to create an view(template) and corresponding route for that action
+
+
 
 
 
